@@ -1,0 +1,28 @@
+concept_id,concept_code,concept_name,domain_id,vocabulary_id,concept_class_id,standard_concept,invalid_reason,valid_start_date,valid_end_date
+2000000001,34,Year of birth,Observation,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000002,46,Hand grip strength (left),Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000003,47,Hand grip strength (right),Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000004,93,"Systolic blood pressure, manual reading",Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000005,94,"Diastolic blood pressure, manual reading",Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000006,102,"Pulse rate, automated reading",Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000007,2734,Number of live births,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000008,2744,Birth weight of first child,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000009,2754,Age at first live birth,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000010,2764,Age at last live birth,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000011,2794,Age started oral contraceptive pill,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000012,2804,Age when last used oral contraceptive pill,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000013,2824,Age at hysterectomy,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000014,2966,Age high blood pressure diagnosed,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000015,2976,Age diabetes diagnosed,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000016,3064,Peak expiratory flow (PEF),Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000017,3536,Age started hormone-replacement therapy (HRT),Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000018,3546,Age last used hormone-replacement therapy (HRT),Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000019,3786,Age asthma diagnosed,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000020,3894,Age heart attack diagnosed,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000021,20002-1065,"Non-cancer illness code, self-reported | hypertension",Condition,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000022,20002-1473,"Non-cancer illness code, self-reported | high cholesterol",Condition,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000023,1558-1,Alcohol Intake Frequency | Daily or almost daily,Observation,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000024,1558-6,Alcohol Intake Frequency | Never,Observation,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000025,20003-1195,Treatment/medication code | vitamin c product,Drug,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000026,20003-1140868226,Treatment/medication code | aspirin,Drug,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000027,20003-1140850956,Treatment/medication code | duogastrone 50mg tablet,Drug,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
