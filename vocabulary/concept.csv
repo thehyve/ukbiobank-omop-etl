@@ -1,28 +1,162 @@
 concept_id,concept_code,concept_name,domain_id,vocabulary_id,concept_class_id,standard_concept,invalid_reason,valid_start_date,valid_end_date
-2000000001,34,Year of birth,Observation,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000002,46,Hand grip strength (left),Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000003,47,Hand grip strength (right),Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000004,93,"Systolic blood pressure, manual reading",Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000005,94,"Diastolic blood pressure, manual reading",Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000006,102,"Pulse rate, automated reading",Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000007,2734,Number of live births,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000008,2744,Birth weight of first child,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000009,2754,Age at first live birth,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000010,2764,Age at last live birth,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000011,2794,Age started oral contraceptive pill,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000012,2804,Age when last used oral contraceptive pill,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000013,2824,Age at hysterectomy,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000014,2966,Age high blood pressure diagnosed,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000015,2976,Age diabetes diagnosed,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000016,3064,Peak expiratory flow (PEF),Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000017,3536,Age started hormone-replacement therapy (HRT),Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000018,3546,Age last used hormone-replacement therapy (HRT),Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000019,3786,Age asthma diagnosed,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000020,3894,Age heart attack diagnosed,Measurement,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000021,20002-1065,"Non-cancer illness code, self-reported | hypertension",Condition,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000022,20002-1473,"Non-cancer illness code, self-reported | high cholesterol",Condition,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000023,1558-1,Alcohol Intake Frequency | Daily or almost daily,Observation,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000024,1558-6,Alcohol Intake Frequency | Never,Observation,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000025,20003-1195,Treatment/medication code | vitamin c product,Drug,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000026,20003-1140868226,Treatment/medication code | aspirin,Drug,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
-2000000027,20003-1140850956,Treatment/medication code | duogastrone 50mg tablet,Drug,UKB,UKB Data Field,NULL,NULL,2020-04-17,2099-12-31
+2000000001,34,Year of birth,Observation,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000002,46,Hand grip strength (left),Measurement,UKB,UKB Field,NULL,NULL,2020-01-01,2099-12-31
+2000000003,47,Hand grip strength (right),Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000004,93,Systolic blood pressure, manual reading,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000005,94,Diastolic blood pressure, manual reading,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000006,102,Pulse rate, automated reading,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000007,2734,Number of live births,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000008,2744,Birth weight of first child,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000009,2754,Age at first live birth,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000010,2764,Age at last live birth,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000011,2794,Age started oral contraceptive pill,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000012,2804,Age when last used oral contraceptive pill,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000013,2824,Age at hysterectomy,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000014,2966,Age high blood pressure diagnosed,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000015,2976,Age diabetes diagnosed,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000016,3064,Peak expiratory flow (PEF),Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000017,3536,Age started hormone-replacement therapy (HRT),Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000018,3546,Age last used hormone-replacement therapy (HRT),Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000019,3786,Age asthma diagnosed,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000020,3894,Age heart attack diagnosed,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000021,3992,Age emphysema/chronic bronchitis diagnosed,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000022,4012,Age deep-vein thrombosis (DVT, blood clot in leg) diagnosed,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000023,4022,Age pulmonary embolism (blood clot in lung) diagnosed,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000024,4056,Age stroke diagnosed,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000025,4079,Diastolic blood pressure, automated reading,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000026,4080,Systolic blood pressure, automated reading,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000027,4194,Pulse rate,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000028,4689,Age glaucoma diagnosed,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000029,4700,Age cataract diagnosed,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000030,30001,White blood cell (leukocyte) count freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000031,30011,Red blood cell (erythrocyte) count freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000032,30021,Haemoglobin concentration freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000033,30031,Haematocrit freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000034,30041,Mean corpuscular volume freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000035,30051,Mean corpuscular haemoglobin freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000036,30061,Mean corpuscular haemoglobin concentration freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000037,30071,Red blood cell (erythrocyte) distribution width freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000038,30081,Platelet count freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000039,30091,Platelet crit freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000040,30101,Mean platelet (thrombocyte) volume freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000041,30111,Platelet distribution width freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000042,30121,Lymphocyte count freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000043,30131,Monocyte count freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000044,30141,Neutrophill count freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000045,30151,Eosinophill count freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000046,30161,Basophill count freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000047,30171,Nucleated red blood cell count freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000048,30181,Lymphocyte percentage freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000049,30191,Monocyte percentage freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000050,30201,Neutrophill percentage freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000051,30211,Eosinophill percentage freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000052,30221,Basophill percentage freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000053,30231,Nucleated red blood cell percentage freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000054,30241,Reticulocyte percentage freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000055,30251,Reticulocyte count freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000056,30261,Mean reticulocyte volume freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000057,30271,Mean sphered cell volume freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000058,30281,Immature reticulocyte fraction freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000059,30291,High light scatter reticulocyte percentage freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000060,30301,High light scatter reticulocyte count freeze-thaw cycles,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000061,30314,Volume of EDTA1 plasma held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000062,30324,Volume of EDTA1 red cells held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000063,30334,Volume of EDTA1 buffy held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000064,30344,Volume of EDTA2 plasma held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000065,30354,Volume of EDTA2 buffy held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000066,30364,Volume of EDTA2 red cells held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000067,30374,Volume of Li-Hep plasma held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000068,30384,Volume of serum held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000069,30394,Total volume of urine samples held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000070,30404,Volume of ACD held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000071,30414,Volume of RNA held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000072,30424,Total volume of saliva samples held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000073,40009,Reported occurrences of cancer,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000074,40425,Volume of DNA held by UKB,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000075,41149,Records in HES inpatient operations dataset,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000076,41234,Records in HES inpatient diagnoses dataset,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000077,41235,Spells in hospital,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000078,41259,Records in HES inpatient main dataset,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000079,41261,Records in HES inpatient maternity dataset,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000080,40010,Description of cause of death,Observation,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000081,48,Waist circumference,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000082,49,Hip circumference,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000083,50,Standing height,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000084,51,Seated height,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000085,189,Townsend deprivation index at recruitment,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000086,3062,Forced vital capacity (FVC),Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000087,3063,Forced expiratory volume in 1-second (FEV1),Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000088,3160,Weight, manual entry,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000089,20006,Interpolated Year when cancer first diagnosed,Observation,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000090,20007,Interpolated Age of participant when cancer first diagnosed,Observation,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000091,20008,Interpolated Year when non-cancer illness first diagnosed,Observation,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000092,20009,Interpolated Age of participant when non-cancer illness first diagnosed,Observation,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000093,20010,Interpolated Year when operation took place,Observation,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000094,30000,White blood cell (leukocyte) count,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000095,30010,Red blood cell (erythrocyte) count,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000096,30020,Haemoglobin concentration,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000097,30030,Haematocrit percentage,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000098,30040,Mean corpuscular volume,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000099,30050,Mean corpuscular haemoglobin,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000100,30060,Mean corpuscular haemoglobin concentration,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000101,30070,Red blood cell (erythrocyte) distribution width,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000102,30080,Platelet count,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000103,30090,Platelet crit,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000104,30100,Mean platelet (thrombocyte) volume,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000105,30110,Platelet distribution width,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000106,30120,Lymphocyte count,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000107,30130,Monocyte count,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000108,30140,Neutrophill count,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000109,30150,Eosinophill count,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000110,30160,Basophill count,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000111,30170,Nucleated red blood cell count,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000112,30180,Lymphocyte percentage,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000113,30190,Monocyte percentage,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000114,30200,Neutrophill percentage,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000115,30210,Eosinophill percentage,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000116,30220,Basophill percentage,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000117,30230,Nucleated red blood cell percentage,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000118,30240,Reticulocyte percentage,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000119,30250,Reticulocyte count,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000120,30260,Mean reticulocyte volume,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000121,30270,Mean sphered cell volume,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000122,30280,Immature reticulocyte fraction,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000123,30290,High light scatter reticulocyte percentage,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000124,30300,High light scatter reticulocyte count,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000125,30500,Microalbumin in urine,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000126,30510,Creatinine (enzymatic) in urine,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000127,30520,Potassium in urine,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000128,30530,Sodium in urine,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000129,30600,Albumin,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000130,30610,Alkaline phosphatase,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000131,30620,Alanine aminotransferase,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000132,30630,Apolipoprotein A,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000133,30640,Apolipoprotein B,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000134,30650,Aspartate aminotransferase,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000135,30660,Direct bilirubin,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000136,30670,Urea,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000137,30680,Calcium,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000138,30690,Cholesterol,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000139,30700,Creatinine,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000140,30710,C-reactive protein,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000141,30720,Cystatin C,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000142,30730,Gamma glutamyltransferase,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000143,30740,Glucose,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000144,30750,Glycated haemoglobin (HbA1c),Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000145,30760,HDL cholesterol,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000146,30770,IGF-1,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000147,30780,LDL direct,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000148,30790,Lipoprotein A,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000149,30800,Oestradiol,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000150,30810,Phosphate,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000151,30820,Rheumatoid factor,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000152,30830,SHBG,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000153,30840,Total bilirubin,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000154,30850,Testosterone,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000155,30860,Total protein,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000156,30870,Triglycerides,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000157,30880,Urate,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000158,30890,Vitamin D,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000159,30897,Estimated sample dilution factor,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000160,40007,Age at death,Observation,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000161,40008,Age at cancer diagnosis,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
