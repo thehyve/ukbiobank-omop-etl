@@ -86,7 +86,7 @@ concept_id,concept_code,concept_name,domain_id,vocabulary_id,concept_class_id,st
 2000000085,189,Townsend deprivation index at recruitment,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
 2000000086,3062,Forced vital capacity (FVC),Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
 2000000087,3063,Forced expiratory volume in 1-second (FEV1),Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
-2000000088,3160,Weight, manual entry,Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
+2000000088,3160,"Weight, manual entry",Measurement,UKB,,NULL,NULL,2020-01-01,2099-12-31
 2000000089,20006,Interpolated Year when cancer first diagnosed,Observation,UKB,,NULL,NULL,2020-01-01,2099-12-31
 2000000090,20007,Interpolated Age of participant when cancer first diagnosed,Observation,UKB,,NULL,NULL,2020-01-01,2099-12-31
 2000000091,20008,Interpolated Year when non-cancer illness first diagnosed,Observation,UKB,,NULL,NULL,2020-01-01,2099-12-31
