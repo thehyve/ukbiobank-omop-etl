@@ -1,0 +1,109 @@
+field_id,name,mapping_approach,date_field_id,target_concept_id,unit_concept_id,conversion_factor
+30000,White blood cell (leukocyte) count,numeric,53,4298431,44777588,1
+30001,White blood cell (leukocyte) count freeze-thaw cycles,numeric,53,4298431,,1
+30010,Red blood cell (erythrocyte) count,numeric,53,4030871,44777575,1
+30011,Red blood cell (erythrocyte) count freeze-thaw cycles,numeric,53,4030871,,1
+30020,Haemoglobin concentration,numeric,53,40480067,8713,1
+30021,Haemoglobin concentration freeze-thaw cycles,numeric,53,40480067,,1
+30030,Haematocrit percentage,numeric,53,4151358,8554,1
+30031,Haematocrit freeze-thaw cycles,numeric,53,4151358,,1
+30040,Mean corpuscular volume,numeric,53,4016239,8583,1
+30041,Mean corpuscular volume freeze-thaw cycles,numeric,53,4016239,,1
+30050,Mean corpuscular haemoglobin,numeric,53,4182871,8564,1
+30051,Mean corpuscular haemoglobin freeze-thaw cycles,numeric,53,4290193,8713,1
+30060,Mean corpuscular haemoglobin concentration,numeric,53,4290193,,1
+30061,Mean corpuscular haemoglobin concentration freeze-thaw cycles,numeric,53,4281085,8554,1
+30070,Red blood cell (erythrocyte) distribution width,numeric,53,4281085,,1
+30071,Red blood cell (erythrocyte) distribution width freeze-thaw cycles,numeric,53,4267147,44777588,1
+30080,Platelet count,numeric,53,4267147,,1
+30081,Platelet count freeze-thaw cycles,numeric,53,4097621,8554,1
+30090,Platelet crit,numeric,53,4097621,,1
+30091,Platelet crit freeze-thaw cycles,numeric,53,4192368,8583,1
+30100,Mean platelet (thrombocyte) volume,numeric,53,4192368,,1
+30101,Mean platelet (thrombocyte) volume freeze-thaw cycles,numeric,53,4097620,8554,1
+30110,Platelet distribution width,numeric,53,4097620,,1
+30111,Platelet distribution width freeze-thaw cycles,numeric,53,4254663,44777588,1
+30120,Lymphocyte count,numeric,53,4254663,,1
+30121,Lymphocyte count freeze-thaw cycles,numeric,53,4194332,44777588,1
+30130,Monocyte count,numeric,53,4194332,,1
+30131,Monocyte count freeze-thaw cycles,numeric,53,4148615,44777588,1
+30140,Neutrophill count,numeric,53,4148615,,1
+30141,Neutrophill count freeze-thaw cycles,numeric,53,4216098,44777588,1
+30150,Eosinophill count,numeric,53,4216098,,1
+30151,Eosinophill count freeze-thaw cycles,numeric,53,4172647,44777588,1
+30160,Basophill count,numeric,53,4172647,,1
+30161,Basophill count freeze-thaw cycles,numeric,53,4012826,44777588,1
+30170,Nucleated red blood cell count,numeric,53,4012826,,1
+30171,Nucleated red blood cell count freeze-thaw cycles,numeric,53,37399254,8554,1
+30180,Lymphocyte percentage,numeric,53,37399254,8554,1
+30181,Lymphocyte percentage freeze-thaw cycles,numeric,53,37393321,8554,1
+30190,Monocyte percentage,numeric,53,37393321,8554,1
+30191,Monocyte percentage freeze-thaw cycles,numeric,53,37398605,8554,1
+30200,Neutrophill percentage,numeric,53,37398605,8554,1
+30201,Neutrophill percentage freeze-thaw cycles,numeric,53,37399255,8554,1
+30210,Eosinophill percentage,numeric,53,37399255,8554,1
+30211,Eosinophill percentage freeze-thaw cycles,numeric,53,37398606,8554,1
+30220,Basophill percentage,numeric,53,37398606,8554,1
+30221,Basophill percentage freeze-thaw cycles,numeric,53,37393325,8554,1
+30230,Nucleated red blood cell percentage,numeric,53,37393325,8554,1
+30231,Nucleated red blood cell percentage freeze-thaw cycles,numeric,53,37393631,8554,1
+30240,Reticulocyte percentage,numeric,53,37393631,8554,1
+30241,Reticulocyte percentage freeze-thaw cycles,numeric,53,4263581,44777575,1
+30250,Reticulocyte count,numeric,53,4263581,,1
+30251,Reticulocyte count freeze-thaw cycles,numeric,53,3049858,8583,1
+30260,Mean reticulocyte volume,numeric,53,3049858,,1
+30261,Mean reticulocyte volume freeze-thaw cycles,numeric,53,3039385,8583,1
+30270,Mean sphered cell volume,numeric,53,3039385,,1
+30271,Mean sphered cell volume freeze-thaw cycles,numeric,53,4135655,8523,1
+30280,Immature reticulocyte fraction,numeric,53,4135655,,1
+30281,Immature reticulocyte fraction freeze-thaw cycles,numeric,53,3041522,8554,1
+30290,High light scatter reticulocyte percentage,numeric,53,3041522,8554,1
+30291,High light scatter reticulocyte percentage freeze-thaw cycles,numeric,53,42529546,44777575,1
+30300,High light scatter reticulocyte count,numeric,53,42529546,8554,1
+30301,High light scatter reticulocyte count freeze-thaw cycles,numeric,53,,9655,1
+30314,Volume of EDTA1 plasma held by UKB,numeric,53,,9655,1
+30324,Volume of EDTA1 red cells held by UKB,numeric,53,,9655,1
+30334,Volume of EDTA1 buffy held by UKB,numeric,53,,9655,1
+30344,Volume of EDTA2 plasma held by UKB,numeric,53,,9655,1
+30354,Volume of EDTA2 buffy held by UKB,numeric,53,,9655,1
+30364,Volume of EDTA2 red cells held by UKB,numeric,53,,9655,1
+30374,Volume of Li-Hep plasma held by UKB,numeric,53,,9655,1
+30384,Volume of serum held by UKB,numeric,53,,9655,1
+30394,Total volume of urine samples held by UKB,numeric,53,,9655,1
+30404,Volume of ACD held by UKB,numeric,53,,9655,1
+30414,Volume of RNA held by UKB,numeric,53,,9655,1
+30424,Total volume of saliva samples held by UKB,numeric,53,3000034,8751,1
+30500,Microalbumin in urine,numeric,53,3017250,8749,1
+30510,Creatinine (enzymatic) in urine,numeric,53,3016038,8753,1
+30520,Potassium in urine,numeric,53,3003181,8753,1
+30530,Sodium in urine,numeric,53,4097664,8636,1
+30600,Albumin,numeric,53,4230636,8645,1
+30610,Alkaline phosphatase,numeric,53,4146380,8645,1
+30620,Alanine aminotransferase,numeric,53,4014902,8636,1
+30630,Apolipoprotein A,numeric,53,4017617,8636,1
+30640,Apolipoprotein B,numeric,53,4263457,8645,1
+30650,Aspartate aminotransferase,numeric,53,4216632,8749,1
+30660,Direct bilirubin,numeric,53,4020121,8753,1
+30670,Urea,numeric,53,4216722,8753,1
+30680,Calcium,numeric,53,4299360,8753,1
+30690,Cholesterol,numeric,53,4324383,8749,1
+30700,Creatinine,numeric,53,4208414,8751,1
+30710,C-reactive protein,numeric,53,44789161,8751,1
+30720,Cystatin C,numeric,53,4289475,8645,1
+30730,Gamma glutamyltransferase,numeric,53,4149519,8753,1
+30740,Glucose,numeric,53,37116827,9579,1
+30750,Glycated haemoglobin (HbA1c),numeric,53,4195214,8753,1
+30760,HDL cholesterol,numeric,53,3007922,8736,1
+30770,IGF-1,numeric,53,2212451,8753,1
+30780,LDL direct,numeric,53,3046664,8736,1
+30790,Lipoprotein A,numeric,53,4292703,8729,1
+30800,Oestradiol,numeric,53,4017907,8753,1
+30810,Phosphate,numeric,53,4204380,8985,1
+30820,Rheumatoid factor,numeric,53,4082602,8736,1
+30830,SHBG,numeric,53,4230543,8749,1
+30840,Total bilirubin,numeric,53,4020107,8736,1
+30850,Testosterone,numeric,53,4119650,8636,1
+30860,Total protein,numeric,53,4032789,8753,1
+30870,Triglycerides,numeric,53,4313992,8749,1
+30880,Urate,numeric,53,4308739,8736,1
+30890,Vitamin D,numeric,53,,,1

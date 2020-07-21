@@ -1,0 +1,37 @@
+field_id,name,mapping_approach,date_field_id,target_concept_id,unit_concept_id,conversion_factor
+46,Hand grip strength (left),numeric,53,44805437,9529,1
+47,Hand grip strength (right),numeric,53,44805438,9529,1
+48,Waist circumference,numeric,53,4172830,8582,1
+49,Hip circumference,numeric,53,4111665,8582,1
+50,Standing height,numeric,53,3015514,8582,1
+51,Seated height,numeric,53,37020651,8582,1
+93,"Systolic blood pressure, manual reading",numeric,53,4152194,8876,1
+94,"Diastolic blood pressure, manual reading",numeric,53,4154790,8876,1
+102,"Pulse rate, automated reading",numeric,53,4301868,4118124,1
+189,Townsend deprivation index at recruitment,numeric,53,,,1
+2734,Number of live births,numeric,53,45770046,,1
+2744,Birth weight of first child,numeric,53,40759215,8739,1
+2754,Age at first live birth,numeric,53,3035266,9448,1
+2764,Age at last live birth,numeric,53,,9448,1
+2794,Age started oral contraceptive pill,numeric,53,,9448,1
+2804,Age when last used oral contraceptive pill,numeric,53,,9448,1
+2824,Age at hysterectomy,numeric,53,,9448,1
+3062,Forced vital capacity (FVC),numeric,53,4176265,8519,1
+3063,Forced expiratory volume in 1-second (FEV1),numeric,53,3024653,8519,1
+3064,Peak expiratory flow (PEF),numeric,53,37055478,8698,1
+3160,"Weight, manual entry",numeric,53,3025315,9529,1
+4079,"Diastolic blood pressure, automated reading",numeric,53,4152194,8876,1
+4080,"Systolic blood pressure, automated reading",numeric,53,4154790,8876,1
+4194,Pulse rate,numeric,53,4301868,4118124,1
+
+30897,Estimated sample dilution factor,numeric,53,3038421,9448,1
+40007,Age at death,numeric,53,3007016,9448,1
+40008,Age at cancer diagnosis,numeric,53,,,1
+40009,Reported occurrences of cancer,numeric,53,4083743,,1
+40010,Description of cause of death,numeric,53,,9655,1
+40425,Volume of DNA held by UKB,numeric,53,,,1
+41149,Records in HES inpatient operations dataset,numeric,53,,,1
+41234,Records in HES inpatient diagnoses dataset,numeric,53,,,1
+41235,Spells in hospital,numeric,53,,,1
+41259,Records in HES inpatient main dataset,numeric,53,,,1
+41261,Records in HES inpatient maternity dataset,numeric,53,,,1
