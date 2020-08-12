@@ -18,3 +18,4 @@ field_id,name,mapping_approach,reason
 20008,Interpolated Year when non-cancer illness first diagnosed,ignore,modifier
 20009,Interpolated Age of participant when non-cancer illness first diagnosed,ignore,modifier
 20010,Interpolated Year when operation took place,ignore,modifier
+6150,Vascular/heart problems diagnosed by doctor,ignore,captured through age field
