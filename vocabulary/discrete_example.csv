@@ -1,0 +1,11 @@
+field_id,name,mapping_approach,date_field_id,value,value_name,target_concept_id,target_value_concept_id
+1558,Alcohol intake frequency,discrete,53,1,Daily or almost daily,4052351,45879676
+1558,Alcohol intake frequency,discrete,53,2,Three or four times a week,4052351,45877752
+1558,Alcohol intake frequency,discrete,53,3,Once or twice a week,4052351,42530680
+1558,Alcohol intake frequency,discrete,53,4,Once to three times a month,4052351,45882429
+1558,Alcohol intake frequency,discrete,53,5,Special occasions only,4052351,45885326
+1558,Alcohol intake frequency,discrete,53,6,Never,4052351,45876662
+20002,Non-cancer illness code - self-reported,discrete,53,1077,heart arrhythmia,4188893,44784217
+20002,Non-cancer illness code - self-reported,discrete,53,1123,sleep apnoea,4188893,313459
+20002,Non-cancer illness code - self-reported,discrete,53,1617,osteopenia,4188893,4195039
+20002,Non-cancer illness code - self-reported,discrete,53,1278,cataract,4188893,375545
