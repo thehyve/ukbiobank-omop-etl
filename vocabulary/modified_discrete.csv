@@ -1,6 +1,7 @@
-field_id,name,mapping_approach,date_field_id,modified_by_field_id,modified_by_value,target_concept_id,target_value_concept_id
-20551,Substance of prescription or over-the-counter medication addiction,Modified,53,20503,1,3184281,4156741
-20551,Substance of prescription or over-the-counter medication addiction,Modified,53,20503,1,3184281,4189272
-20551,Substance of prescription or over-the-counter medication addiction,Modified,53,20503,1,3184281,45878142
-2986,Started insulin within one year diagnosis of diabetes,Modified,53,31/2443/4041,1/1,4188893,45884660
-2986,Started insulin within one year diagnosis of diabetes,Modified,53,31/2443/4041,0/1/0,4188893,45884660
+field_id,name,mapping_approach,date_field_id,modified_by_field_id,modified_by_value,target_concept_id,target_value_concept_id,value,value_name
+20551,Substance of prescription or over-the-counter medication addiction,Modified,53,20503,1,3184281,4156741,1,A sedative benzodiazepine or sleeping tablet
+20551,Substance of prescription or over-the-counter medication addiction,Modified,53,20503,1,3184281,4189272,2,A painkiller
+20551,Substance of prescription or over-the-counter medication addiction,Modified,53,20503,1,3184281,45878142,3,Something else
+20551,Substance of prescription or over-the-counter medication addiction,Modified,53,20503,1,3184281,45878142,4,Do not know
+2986,Started insulin within one year diagnosis of diabetes,Modified,53,31/2443/4041,1/1,4188893,45884660,1,Yes
+2986,Started insulin within one year diagnosis of diabetes,Modified,53,31/2443/4041,0/1/0,4188893,45884660,0,No
