@@ -8,8 +8,8 @@ path = "../../vocabulary/*.csv"
 examples = pd.DataFrame()
 
 for file in glob.glob(path):
-    approach = pd.read_csv(file)
-    examples = examples.append(approach, ignore_index=True)
+    approach = pd.read_csv(file, dtype=object)  # all ids are read in as strings, not converted to floats
+    examples = examples.append(approach, ignore_index=True, sort=False)
 
 
 def lookup_metadata(field):
@@ -18,4 +18,5 @@ def lookup_metadata(field):
     return line
 
 
-display(lookup_metadata(2986))
+if __name__ == '__main__':
+    display(lookup_metadata(2986))

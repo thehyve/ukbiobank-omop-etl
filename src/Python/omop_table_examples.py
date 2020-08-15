@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 import json
 
-from src.Python.metadata_examples import examples
+from metadata_examples import examples
 
 
 def omop_domain(field):
@@ -13,22 +13,32 @@ def omop_domain(field):
     return domain
 
 
-def example_omop_table(field, instance, value=None):
-    domain = omop_domain(field)
-    if value is not None:
-        row = examples[(examples['field_id'] == field) & (examples['value'] == value)]
-    else:
-        row = examples[examples['field_id'] == field]
+def create_column_name(field_id, instance_id, array_index):
+    return f'{field_id}-{instance_id}.{array_index}'
 
+
+def example_omop_table(field_id, value=None, instance='0', array='0'):
+    domain = omop_domain(field_id).lower()
+    if value is not None:
+        row = examples[(examples['field_id'] == field_id) & (examples['value'] == value)]
+    else:
+        row = examples[examples['field_id'] == field_id]
+
+    row = row.iloc[0]
     table = pd.Series({'person_id': 'get(eid)',
-                       domain + '_concept_id': int(row.iloc[0]['target_concept_id']),
-                       domain + '_date': 'get date from field ' + str(row.iloc[0]['date_field_id']) + '-' + instance + '.0',
-                       'value_as_concept_id': row.iloc[0]['target_value_concept_id'],
-                       'value_as_number': 'get value from field ' + str(row.iloc[0]['field_id']) + '-' + instance + '.0',
-                       'unit_concept_id': row.iloc[0]['unit_concept_id']
+                       domain + '_date': 'get(%s)' % create_column_name(row['date_field_id'], instance, array),
+                       domain + '_concept_id': row['target_concept_id'],
+                       domain + '_source_value': field_id,
+                       'value_as_concept_id': row["target_value_concept_id"],
+                       'value_as_number': 'get(%s)' % create_column_name(field_id, instance, array),
+                       'value_source_value': value,
+                       'unit_concept_id': row['unit_concept_id'],
+                       domain + '_type_concept_id': 'TBD'
                        })
     table = table.dropna()
     return table
 
 
-print(example_omop_table(2986, '1', 0))
+if __name__ == '__main__':
+    # Note: the arguments have to be strings, not integers.
+    print(example_omop_table(field_id='47', value=None, instance='0'))
