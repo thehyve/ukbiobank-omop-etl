@@ -6,7 +6,6 @@ import pandas as pd
 def read_data():
     path = "../../vocabulary/*.csv"
     examples = pd.DataFrame()
-
     for file in glob.glob(path):
         approach = pd.read_csv(file, dtype=object)
         examples = examples.append(approach, ignore_index=True, sort=False)

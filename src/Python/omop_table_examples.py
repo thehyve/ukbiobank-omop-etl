@@ -59,3 +59,4 @@ def example_omop_table(field_id, value, instance, array):
 if __name__ == '__main__':
     # Note: the arguments have to be strings, not integers.
     example_omop_table()
+
