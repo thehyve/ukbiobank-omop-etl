@@ -1,0 +1,39 @@
+[
+  {
+    "field_id": 30000,
+    "field_description": "White blood cell (leukocyte) count",
+    "mapping_approach": "numeric",
+    "date_field_id": 53,
+    "target_concept_id": 4298431,
+    "unit_concept_id": 44777588,
+    "conversion_factor": 1
+  },
+  {
+    "field_id": 30001,
+    "field_description": "White blood cell (leukocyte) count freeze-thaw cycles",
+    "mapping_approach": "numeric",
+    "date_field_id": 53,
+    "target_concept_id": 4298431,
+    "conversion_factor": 1
+  },
+  {
+    "field_id": "30010",
+    "field_description": "White blood cell (leukocyte) count freeze-thaw cycles",
+    "mapping_approach": "numeric",
+    "date_field_id": 53,
+    "target_concept_id": 4030871,
+    "unit_concept_id": null,
+    "conversion_factor": 1
+  },
+  {
+    "field_id": "102",
+    "field_description": "Pulse rate, automated reading",
+    "mapping_approach": "numeric",
+    "date_field_id": 53,
+    "target_concept_id": 4301868,
+    "target_concept_description": "Pulse rate, SNOMED, Measurement",
+    "unit_concept_id": 4118124,
+    "unit_concept_description": "beats/min, UCUM, Unit",
+    "conversion_factor": 1
+  }
+]

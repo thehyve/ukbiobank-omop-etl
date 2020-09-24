@@ -1,0 +1,44 @@
+{
+    "$id": "https://example.com/mapping.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "A representation of a mapping",
+    "type" : "array",
+    "items": { "$ref": "#/definitions/mapping" },
+    "definitions": {
+        "mapping": {
+            "type": "object",
+            "required": [
+                "field_id",
+                "date_field_id",
+                "target_concept_id"
+            ],
+            "properties": {
+                "field_id": {
+                    "type": ["string", "number"],
+                    "description": "Integer code uniquely identifying the UKB question"
+                },
+                "field_description": {
+                    "type": "string",
+                    "description": "The UKB field name"
+                },
+                "mapping_approach": {
+                    "type": "string",
+                    "description": "How this variable should be mapped to OMOP concept",
+                    "enum": ["numeric", "discrete", "modified"]
+                },
+                "date_field_id": {
+                    "type": "number"
+                },
+                "target_concept_id": {
+                    "type": "number"
+                },
+                "unit_concept_id": {
+                    "type": ["number", "null"]
+                },
+                "conversion_factor": {
+                    "type": "number"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "field_id": 1558,
+    "field_description": "Alcohol intake frequency",
+    "mapping_approach": "discrete",
+    "date_field_id": 53,
+    "target_concept_id": 4052351,
+    "target_concept_description": "Alcohol Intake, SNOMED, Observation",
+    "values": [
+      {
+        "value": "1",
+        "value_description": "Daily or almost daily",
+        "target_value_concept_id": 45879676,
+        "target_value_concept_description": "Daily or almost daily, LOINC, Meas Value"
+      },
+      {
+        "value": "2",
+        "value_description": "Three or four times a week",
+        "target_value_concept_id": 45877752,
+        "target_value_concept_description": "Three or four times per week, LOINC, Meas Value"
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "field_id": 3894,
+    "field_description": "Age heart attack diagnosed",
+    "mapping_approach": "modified",
+    "date_field_id": 53,
+    "target_concept_id": 4188893,
+    "target_concept_description": "History of, SNOMED, Observation",
+    "target_value_as_concept_id": 4329847,
+    "target_value_as_concept_description": "Myocardial infarction, SNOMED, Condition",
+    "target_unit_concept_id": 9448,
+    "target_unit_concept_description": "year, UCUM, Unit"
+  },
+  {
+    "field_id": 2986,
+    "field_description": "Started insulin within one year diagnosis of diabetes",
+    "mapping_approach": "discrete",
+    "date_field_id": 53,
+    "target_concept_id": 4188893,
+    "target_concept_description": "History of, SNOMED, Observation",
+    "values": [
+      {
+        "value": "0",
+        "value_description": "No"
+      },
+      {
+        "value": "1",
+        "value_description": "Yes",
+        "target_value_concept_id": 45884660,
+        "target_value_concept_description": "Insulin, LOINC, Meas Value"
+      }
+    ]
+  },
+  {
+    "field_id": 2443,
+    "field_description": "Diabetes diagnosed by doctor",
+    "mapping_approach": "modified",
+    "date_field_id": 53,
+    "target_concept_id": 4188893,
+    "target_concept_description": "History of, SNOMED, Observation",
+    "value_modified_by": [
+      {
+        "field_id": 4041,
+        "field_description": "Gestational diabetes only",
+        "values": [
+          {
+            "value": "0",
+            "value_description": "No",
+            "target_value_concept_id": 201820,
+            "target_value_concept_description": "Diabetes mellitus, SNOMED, Condition"
+          },
+          {
+            "value": "1",
+            "value_description": "Yes",
+            "target_value_concept_id": 45879799,
+            "target_value_concept_description": "Gestational diabetes melitus, SNOMED, Condition"
+          }
+        ]
+      }
+    ]
+  }
+]
