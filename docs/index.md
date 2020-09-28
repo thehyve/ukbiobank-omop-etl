@@ -13,6 +13,11 @@
 - [Procedure Occurrence](procedure_occurrence.md)
 - [Observation](observation.md)
 - [Death](death.md)
+- [Stem Table](stem_table.md)
+
+## Stem to domains
+- [STEM](stem/index.md)
+
 
 # Notes
 - Markdown files were created by Rabbit in a Hat.
