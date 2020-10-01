@@ -1,0 +1,82 @@
+field_id,field_name,unit_name,category_name,item_count
+48,Waist circumference,cm,Body size measures,570954
+49,Hip circumference,cm,Body size measures,570892
+50,Standing height,cm,Body size measures,570525
+51,Seated height,cm,Body size measures,566624
+189,Townsend deprivation index at recruitment,NA,Baseline characteristics,501882
+3062,Forced vital capacity (FVC),litres,Spirometry,1415262
+3063,Forced expiratory volume in 1-second (FEV1),litres,Spirometry,1415262
+3160,"Weight, manual entry",Kg,Body size measures,8707
+20006,Interpolated Year when cancer first diagnosed,years,Medical conditions,53317
+20007,Interpolated Age of participant when cancer first diagnosed,years,Medical conditions,53317
+20008,Interpolated Year when non-cancer illness first diagnosed,years,Medical conditions,1125831
+20009,Interpolated Age of participant when non-cancer illness first diagnosed,years,Medical conditions,1125831
+20010,Interpolated Year when operation took place,years,Operations,993527
+30000,White blood cell (leukocyte) count,10^9 cells/Litre,Blood count,503445
+30010,Red blood cell (erythrocyte) count,10^12 cells/Litre,Blood count,503449
+30020,Haemoglobin concentration,grams/decilitre,Blood count,503451
+30030,Haematocrit percentage,percent,Blood count,503451
+30040,Mean corpuscular volume,femtolitres,Blood count,503449
+30050,Mean corpuscular haemoglobin,picograms,Blood count,503445
+30060,Mean corpuscular haemoglobin concentration,grams/decilitre,Blood count,503441
+30070,Red blood cell (erythrocyte) distribution width,percent,Blood count,503449
+30080,Platelet count,10^9 cells/Litre,Blood count,503448
+30090,Platelet crit,percent,Blood count,497774
+30100,Mean platelet (thrombocyte) volume,femtolitres,Blood count,503441
+30110,Platelet distribution width,percent,Blood count,497773
+30120,Lymphocyte count,10^9 cells/Litre,Blood count,502543
+30130,Monocyte count,10^9 cells/Litre,Blood count,502543
+30140,Neutrophill count,10^9 cells/Litre,Blood count,502543
+30150,Eosinophill count,10^9 cells/Litre,Blood count,502543
+30160,Basophill count,10^9 cells/Litre,Blood count,502543
+30170,Nucleated red blood cell count,10^9 cells/Litre,Blood count,496853
+30180,Lymphocyte percentage,percent,Blood count,502550
+30190,Monocyte percentage,percent,Blood count,502550
+30200,Neutrophill percentage,percent,Blood count,502550
+30210,Eosinophill percentage,percent,Blood count,502550
+30220,Basophill percentage,percent,Blood count,502550
+30230,Nucleated red blood cell percentage,percent,Blood count,496849
+30240,Reticulocyte percentage,percent,Blood count,494714
+30250,Reticulocyte count,10^12 cells/Litre,Blood count,494715
+30260,Mean reticulocyte volume,femtolitres,Blood count,494715
+30270,Mean sphered cell volume,femtolitres,Blood count,489146
+30280,Immature reticulocyte fraction,ratio,Blood count,489144
+30290,High light scatter reticulocyte percentage,percent,Blood count,489146
+30300,High light scatter reticulocyte count,10^12 cells/Litre,Blood count,489145
+30500,Microalbumin in urine,mg/L,Urine assays,159404
+30510,Creatinine (enzymatic) in urine,micromole/L,Urine assays,503646
+30520,Potassium in urine,millimole/L,Urine assays,502594
+30530,Sodium in urine,millimole/L,Urine assays,502576
+30600,Albumin,g/L,Blood biochemistry,445770
+30610,Alkaline phosphatase,U/L,Blood biochemistry,487473
+30620,Alanine aminotransferase,U/L,Blood biochemistry,487266
+30630,Apolipoprotein A,g/L,Blood biochemistry,443078
+30640,Apolipoprotein B,g/L,Blood biochemistry,484996
+30650,Aspartate aminotransferase,U/L,Blood biochemistry,485602
+30660,Direct bilirubin,umol/L,Blood biochemistry,413662
+30670,Urea,mmol/L,Blood biochemistry,487123
+30680,Calcium,mmol/L,Blood biochemistry,445619
+30690,Cholesterol,mmol/L,Blood biochemistry,487467
+30700,Creatinine,umol/L,Blood biochemistry,487201
+30710,C-reactive protein,mg/L,Blood biochemistry,486406
+30720,Cystatin C,mg/L,Blood biochemistry,487423
+30730,Gamma glutamyltransferase,U/L,Blood biochemistry,487206
+30740,Glucose,mmol/L,Blood biochemistry,445253
+30750,Glycated haemoglobin (HbA1c),mmol/mol,Blood biochemistry,480773
+30760,HDL cholesterol,mmol/L,Blood biochemistry,445563
+30770,IGF-1,nmol/L,Blood biochemistry,484740
+30780,LDL direct,mmol/L,Blood biochemistry,486544
+30790,Lipoprotein A,nmol/L,Blood biochemistry,389863
+30800,Oestradiol,pmol/L,Blood biochemistry,78535
+30810,Phosphate,mmol/L,Blood biochemistry,444901
+30820,Rheumatoid factor,IU/ml,Blood biochemistry,42998
+30830,SHBG,nmol/L,Blood biochemistry,441305
+30840,Total bilirubin,umol/L,Blood biochemistry,485336
+30850,Testosterone,nmol/L,Blood biochemistry,441248
+30860,Total protein,g/L,Blood biochemistry,445289
+30870,Triglycerides,mmol/L,Blood biochemistry,487059
+30880,Urate,umol/L,Blood biochemistry,486855
+30890,Vitamin D,nmol/L,Blood biochemistry,465389
+30897,Estimated sample dilution factor,factor,Blood biochemistry processing,485036
+40007,Age at death,years,Death register,30263
+40008,Age at cancer diagnosis,NA,Cancer register,118715
