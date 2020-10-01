@@ -1,0 +1,21 @@
+field_id,name,mapping_approach,reason
+34,Year of birth,ignore,demographic
+2966,Age high blood pressure diagnosed,ignore,modifier
+2976,Age diabetes diagnosed,ignore,modifier
+3536,Age started hormone-replacement therapy (HRT),ignore,modifier
+3546,Age last used hormone-replacement therapy (HRT),ignore,modifier
+3627,Age angina diagnosed,ignore,modifier
+3786,Age asthma diagnosed,ignore,modifier
+3894,Age heart attack diagnosed,ignore,modifier
+3992,Age emphysema/chronic bronchitis diagnosed,ignore,modifier
+4012,"Age deep-vein thrombosis (DVT, blood clot in leg) diagnosed",ignore,modifier
+4022,Age pulmonary embolism (blood clot in lung) diagnosed,ignore,modifier
+4056,Age stroke diagnosed,ignore,modifier
+4689,Age glaucoma diagnosed,ignore,modifier
+4700,Age cataract diagnosed,ignore,modifier
+20006,Interpolated Year when cancer first diagnosed,ignore,modifier
+20007,Interpolated Age of participant when cancer first diagnosed,ignore,modifier
+20008,Interpolated Year when non-cancer illness first diagnosed,ignore,modifier
+20009,Interpolated Age of participant when non-cancer illness first diagnosed,ignore,modifier
+20010,Interpolated Year when operation took place,ignore,modifier
+6150,Vascular/heart problems diagnosed by doctor,ignore,captured through age field
