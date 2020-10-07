@@ -134,7 +134,7 @@ write.csv(df_discrete_simple, 'discrete_prio_fields.csv', row.names = FALSE, na 
 for (i in 1:length(fields_to_separate$field_ids)) {
   field_id <- fields_to_separate$field_ids[i]
   field_name <- fields_to_separate$field_names[i]
-  df_field_id <- df_discrete[df_discrete$field_id == field_id,]
+  df_field_id <- df_discrete[df_discrete$field_id == field_id,c('field_id','value_code','value_name')]
   write.csv(df_field_id, sprintf('discrete_%s_%s.csv', field_id, field_name), row.names = FALSE, na = '')
 }
 
