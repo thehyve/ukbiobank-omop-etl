@@ -28,7 +28,7 @@ A field_id, field name, unit name, category, note and use item_count as frequenc
 Both prio fields and non-prio fields are included. 
 The priority fields have an added 1_000_000 to their count.
 
-```{sql, connection=conn, output.var = "df_numeric"}
+```{sql, connection=conn, output.var = "df_numeric_all"}
 SELECT 
   fields.field_id as field_id, 
   fields.title as field_name, 
@@ -49,18 +49,42 @@ ORDER BY fields.field_id
 ```
 
 ```{R}
-write.csv(df_numeric, 'numeric_fields.csv', row.names = FALSE, na = '')
+write.csv(df_numeric_all, 'numeric_fields.csv', row.names = FALSE, na = '')
+write.csv(df_numeric_all[df_numeric_all$priority != df_numeric_all$item_count,], 'numeric_prio_fields.csv', row.names = FALSE, na = '')
 ```
 
 
 ## Discrete fields
 A field_id, field name, value code, value name, category, note and item_count.
 
+### Discrete boolean
+```{sql, connection=conn, output.var = "df_discrete_boolean"}
+SELECT
+  fields.field_id as field_id, 
+  fields.title as field_name, 
+  encvalues.value as value_code,
+  encvalues.meaning as value_name,
+  categories.title as category_name,
+  fields.item_count as item_count,
+  fields.notes as notes
+FROM prio_fields AS fields
+LEFT JOIN categories ON fields.category_id = categories.category_id
+LEFT JOIN  encvalues ON fields.encoding_id = encvalues.encoding_id
+WHERE fields.value_type_id IN (21, 22) -- Single categorical or Multiple categorical
+ AND fields.encoding_id IN (1,7,21,27,29,227,502,503,508,514,520,634,1021,1022,8708,100008,100009,100010,100264,100267,100273,100280,100345,100349,100352,100416,100563,100564,100579,100599,100617,100631,100640,100668) -- All encodings with Yes/No
+ AND (encvalues.selectable ISNULL OR encvalues.selectable = 1) 
+ORDER BY fields.field_id, encvalues.value
+;
+```
+
+```{R}
+write.csv(df_discrete_boolean, 'discrete_boolean_prio_fields.csv', row.names = FALSE, na = '')
+```
+
+### Discrete with large code lists
 Do not output the code lists known in OMOP (ICD10, ICD9, OPCS4).
 
 For the remaining fields, split out the large code lists with diagnostic and operative codes.
-
-
 ```{sql, connection=conn, output.var = "df_discrete"}
 SELECT 
   fields.field_id as field_id, 
@@ -74,7 +98,8 @@ FROM prio_fields AS fields
 LEFT JOIN categories ON fields.category_id = categories.category_id
 LEFT JOIN  encvalues ON fields.encoding_id = encvalues.encoding_id
 WHERE fields.value_type_id IN (21, 22) -- Single categorical or Multiple categorical
- AND fields.encoding_id NOT IN (19, 87, 240) -- ICD10, ICD9, OPCS4 (note, OPCS3 is not OMOPed yet)
+  AND fields.encoding_id NOT IN (19, 87, 240) -- ICD10, ICD9, OPCS4 (note, OPCS3 is not OMOPed yet)
+  AND fields.encoding_id NOT IN (1,7,21,27,29,227,502,503,508,514,520,634,1021,1022,8708,100008,100009,100010,100264,100267,100273,100280,100345,100349,100352,100416,100563,100564,100579,100599,100617,100631,100640,100668)
  AND (encvalues.selectable ISNULL OR encvalues.selectable = 1) 
 ORDER BY fields.field_id, encvalues.value
 ;
