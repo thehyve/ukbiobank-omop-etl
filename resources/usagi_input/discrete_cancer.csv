@@ -1,0 +1,82 @@
+sourceCode,sourceName,sourceValueCode,sourceValueName,sourceUnitName,sourceFrequency,sourceAutoAssignedConceptIds,matchScore,mappingStatus,statusSetBy,statusSetOn,conceptId,mappingType,comment,createdBy,createdOn
+20001,mouth cancer,1077,mouth cancer,,-1,,1.0,APPROVED,Maxim,1602254608394,25189,EVENT,,<auto>,1602254004737
+20001,tongue cancer,1011,tongue cancer,,-1,,0.800167441368103,APPROVED,Maxim,1602254610818,4178962,EVENT,,<auto>,1602254008089
+20001,chronic lymphocytic,1055,chronic lymphocytic,,-1,,0.8223675489425659,UNCHECKED,,0,4041666,EVENT,,<auto>,1602254008913
+20001,gum cancer,1012,gum cancer,,-1,,0.6886507868766785,UNCHECKED,,0,4178963,EVENT,,<auto>,1602254019396
+20001,non-small cell lung cancer,1028,non-small cell lung cancer,,-1,,1.0,UNCHECKED,,0,4115276,EVENT,,<auto>,1602254023163
+20001,tonsil cancer,1078,tonsil cancer,,-1,,0.7807733416557312,UNCHECKED,,0,4181339,EVENT,,<auto>,1602254024141
+20001,chronic myeloid,1056,chronic myeloid,,-1,,0.769269585609436,UNCHECKED,,0,762970,EVENT,,<auto>,1602254025924
+20001,parotid gland cancer,1015,parotid gland cancer,,-1,,0.84632807970047,UNCHECKED,,0,4180784,EVENT,,<auto>,1602254044632
+20001,oropharynx / oropharyngeal cancer,1079,oropharynx / oropharyngeal cancer,,-1,,0.6912045478820801,UNCHECKED,,0,4178968,EVENT,,<auto>,1602254063019
+20001,other haematological malignancy,1058,other haematological malignancy,,-1,,0.833472490310669,UNCHECKED,,0,4147164,EVENT,,<auto>,1602254067942
+20001,peripheral nerve/autonomic nerve cancer,1029,peripheral nerve/autonomic nerve cancer,,-1,,0.6665807962417603,UNCHECKED,,0,4202237,EVENT,,<auto>,1602254073425
+20001,other salivary gland cancer,1016,other salivary gland cancer,,-1,,0.8937087059020996,UNCHECKED,,0,4116235,EVENT,,<auto>,1602254078671
+20001,trachea cancer,1080,trachea cancer,,-1,,0.8236047029495239,UNCHECKED,,0,4177112,EVENT,,<auto>,1602254084127
+20001,malignant melanoma,1059,malignant melanoma,,-1,,1.0,UNCHECKED,,0,4299429,EVENT,,<auto>,1602254089576
+20001,oesophageal cancer,1017,oesophageal cancer,,-1,,1.0,UNCHECKED,,0,4181343,EVENT,,<auto>,1602254099879
+20001,eye and/or adnexal cancer,1030,eye and/or adnexal cancer,,-1,,0.710644006729126,UNCHECKED,,0,762455,EVENT,,<auto>,1602254102424
+20001,non-melanoma skin cancer,1060,non-melanoma skin cancer,,-1,,0.6154735088348389,UNCHECKED,,0,141232,EVENT,,<auto>,1602254114437
+20001,stomach cancer,1018,stomach cancer,,-1,,0.7490710616111755,UNCHECKED,,0,21492980,EVENT,,<auto>,1602254114915
+20001,thymus cancer / malignant thymoma,1081,thymus cancer / malignant thymoma,,-1,,0.7540454268455505,UNCHECKED,,0,40480205,EVENT,,<auto>,1602254116725
+20001,basal cell carcinoma,1061,basal cell carcinoma,,-1,,1.0,UNCHECKED,,0,4028320,EVENT,,<auto>,1602254137992
+20001,meningeal cancer / malignant meningioma,1031,meningeal cancer / malignant meningioma,,-1,,0.6676023006439209,UNCHECKED,,0,36716634,EVENT,,<auto>,1602254145100
+20001,heart / mediastinum cancer,1082,heart / mediastinum cancer,,-1,,0.6510633230209351,UNCHECKED,,0,4216544,EVENT,,<auto>,1602254147457
+20001,small intestine/small bowel cancer,1019,small intestine/small bowel cancer,,-1,,0.5372732877731323,UNCHECKED,,0,4146765,EVENT,,<auto>,1602254150017
+20001,squamous cell carcinoma,1062,squamous cell carcinoma,,-1,,1.0,UNCHECKED,,0,36308072,EVENT,,<auto>,1602254158954
+20001,primary bone cancer,1063,primary bone cancer,,-1,,0.7797815203666687,UNCHECKED,,0,3011717,EVENT,,<auto>,1602254196036
+20001,respiratory / intrathoracic cancer,1084,respiratory / intrathoracic cancer,,-1,,0.6046459674835205,UNCHECKED,,0,4194164,EVENT,,<auto>,1602254202079
+20001,large bowel cancer/colorectal cancer,1020,large bowel cancer/colorectal cancer,,-1,,0.5589359402656555,UNCHECKED,,0,443396,EVENT,,<auto>,1602254204573
+20001,brain cancer / primary malignant brain tumour,1032,brain cancer / primary malignant brain tumour,,-1,,0.6488907933235168,UNCHECKED,,0,37395573,EVENT,,<auto>,1602254207231
+20001,mesothelioma,1064,mesothelioma,,-1,,1.0,UNCHECKED,,0,4033891,EVENT,,<auto>,1602254209258
+20001,anal cancer,1021,anal cancer,,-1,,0.8152437210083008,UNCHECKED,,0,196653,EVENT,,<auto>,1602254212355
+20001,thyroid cancer,1065,thyroid cancer,,-1,,1.0,UNCHECKED,,0,36210427,EVENT,,<auto>,1602254215323
+20001,rectal cancer,1023,rectal cancer,,-1,,1.0,UNCHECKED,,0,443390,EVENT,,<auto>,1602254216929
+20001,leukaemia,1048,leukaemia,,-1,,1.0,UNCHECKED,,0,317510,EVENT,,<auto>,1602254217468
+20001,bone metastases / bony secondaries,1085,bone metastases / bony secondaries,,-1,,0.6008269786834717,UNCHECKED,,0,432851,EVENT,,<auto>,1602254220568
+20001,colon cancer/sigmoid cancer,1022,colon cancer/sigmoid cancer,,-1,,0.7335842847824097,UNCHECKED,,0,443381,EVENT,,<auto>,1602254220956
+20001,multiple myeloma,1050,multiple myeloma,,-1,,1.0,UNCHECKED,,0,4210177,EVENT,,<auto>,1602254223179
+20001,liver/hepatocellular cancer,1024,liver/hepatocellular cancer,,-1,,0.5350775718688965,UNCHECKED,,0,4303098,EVENT,,<auto>,1602254224951
+20001,appendix cancer,1086,appendix cancer,,-1,,0.7458922266960144,UNCHECKED,,0,45882982,EVENT,,<auto>,1602254225223
+20001,larynx/throat cancer,1006,larynx/throat cancer,,-1,,0.6681202054023743,UNCHECKED,,0,4123871,EVENT,,<auto>,1602254226561
+20001,myelofibrosis or myelodysplasia,1051,myelofibrosis or myelodysplasia,,-1,,0.6869021058082581,UNCHECKED,,0,133169,EVENT,,<auto>,1602254235236
+20001,fallopian tube cancer,1087,fallopian tube cancer,,-1,,0.8524118065834045,UNCHECKED,,0,4151444,EVENT,,<auto>,1602254236819
+20001,nasal cavity cancer,1007,nasal cavity cancer,,-1,,0.8039696216583252,UNCHECKED,,0,4200560,EVENT,,<auto>,1602254237552
+20001,gallbladder/bile duct cancer,1025,gallbladder/bile duct cancer,,-1,,0.6118407249450684,UNCHECKED,,0,443421,EVENT,,<auto>,1602254238431
+20001,ear cancer,1008,ear cancer,,-1,,0.7220322489738464,UNCHECKED,,0,45877275,EVENT,,<auto>,1602254240590
+20001,hodgkins lymphoma / hodgkins disease,1052,hodgkins lymphoma / hodgkins disease,,-1,,0.7657443284988403,UNCHECKED,,0,36311303,EVENT,,<auto>,1602254241528
+20001,pancreas cancer,1026,pancreas cancer,,-1,,1.0,UNCHECKED,,0,45876542,EVENT,,<auto>,1602254242371
+20001,malignant insulinoma,1088,malignant insulinoma,,-1,,1.0,UNCHECKED,,0,37017016,EVENT,,<auto>,1602254242952
+20001,sinus cancer,1009,sinus cancer,,-1,,0.6474162936210632,UNCHECKED,,0,45877275,EVENT,,<auto>,1602254244538
+20001,non-hodgkins lymphoma,1053,non-hodgkins lymphoma,,-1,,0.9412132501602173,UNCHECKED,,0,4030288,EVENT,,<auto>,1602254245654
+20001,lip cancer,1010,lip cancer,,-1,,0.6244457364082336,UNCHECKED,,0,45877275,EVENT,,<auto>,1602254246888
+20001,cin/pre-cancer cells cervix,1072,cin/pre-cancer cells cervix,,-1,,0.46959188580513,UNCHECKED,,0,198984,EVENT,,<auto>,1602254247793
+20001,small cell lung cancer,1027,small cell lung cancer,,-1,,1.0,UNCHECKED,,0,4110591,EVENT,,<auto>,1602254248668
+20001,vulval cancer,1043,vulval cancer,,-1,,0.7913846969604492,UNCHECKED,,0,4166066,EVENT,,<auto>,1602254250286
+20001,lung cancer,1001,lung cancer,,-1,,1.0,UNCHECKED,,0,45883770,EVENT,,<auto>,1602254250775
+20001,rodent ulcer,1073,rodent ulcer,,-1,,1.0,UNCHECKED,,0,4028320,EVENT,,<auto>,1602254252258
+20001,breast cancer,1002,breast cancer,,-1,,1.0,UNCHECKED,,0,45884515,EVENT,,<auto>,1602254255426
+20001,prostate cancer,1044,prostate cancer,,-1,,1.0,UNCHECKED,,0,45884513,EVENT,,<auto>,1602254256674
+20001,acute myeloid leukaemia,1074,acute myeloid leukaemia,,-1,,1.0,UNCHECKED,,0,4184848,EVENT,,<auto>,1602254258053
+20001,skin cancer,1003,skin cancer,,-1,,1.0,UNCHECKED,,0,45883361,EVENT,,<auto>,1602254259030
+20001,male genital tract cancer,1038,male genital tract cancer,,-1,,0.6116012334823608,UNCHECKED,,0,4129495,EVENT,,<auto>,1602254260690
+20001,testicular cancer,1045,testicular cancer,,-1,,0.7849448919296265,UNCHECKED,,0,4201934,EVENT,,<auto>,1602254261852
+20001,retinoblastoma,1075,retinoblastoma,,-1,,1.0,UNCHECKED,,0,45883831,EVENT,,<auto>,1602254262650
+20001,ovarian cancer,1039,ovarian cancer,,-1,,1.0,UNCHECKED,,0,45882600,EVENT,,<auto>,1602254264790
+20001,penis cancer,1046,penis cancer,,-1,,0.6955457925796509,UNCHECKED,,0,4181488,EVENT,,<auto>,1602254265434
+20001,kaposis sarcoma,1076,kaposis sarcoma,,-1,,0.8156518936157227,UNCHECKED,,0,42530777,EVENT,,<auto>,1602254266085
+20001,lymphoma,1047,lymphoma,,-1,,1.0,UNCHECKED,,0,45881968,EVENT,,<auto>,1602254267091
+20001,cancer of lip/mouth/pharynx/oral cavity,1004,cancer of lip/mouth/pharynx/oral cavity,,-1,,0.3770850896835327,UNCHECKED,,0,4178968,EVENT,,<auto>,1602254270971
+20001,parathyroid cancer,1066,parathyroid cancer,,-1,,1.0,UNCHECKED,,0,4181483,EVENT,,<auto>,1602254271034
+20001,uterine/endometrial cancer,1040,uterine/endometrial cancer,,-1,,0.6269344091415405,UNCHECKED,,0,45883439,EVENT,,<auto>,1602254274699
+20001,adrenal cancer,1067,adrenal cancer,,-1,,0.8134894371032715,UNCHECKED,,0,196653,EVENT,,<auto>,1602254279930
+20001,salivary gland cancer,1005,salivary gland cancer,,-1,,1.0,UNCHECKED,,0,4116235,EVENT,,<auto>,1602254280706
+20001,spinal cord or cranial nerve cancer,1033,spinal cord or cranial nerve cancer,,-1,,0.6524572372436523,UNCHECKED,,0,4019908,EVENT,,<auto>,1602254282344
+20001,cervical cancer,1041,cervical cancer,,-1,,1.0,UNCHECKED,,0,198984,EVENT,,<auto>,1602254282548
+20001,sarcoma/fibrosarcoma,1068,sarcoma/fibrosarcoma,,-1,,0.6237612366676331,UNCHECKED,,0,4202374,EVENT,,<auto>,1602254283178
+20001,vaginal cancer,1042,vaginal cancer,,-1,,0.8147040009498596,UNCHECKED,,0,4173083,EVENT,,<auto>,1602254287928
+20001,kidney/renal cell cancer,1034,kidney/renal cell cancer,,-1,,0.5414243340492249,UNCHECKED,,0,45880475,EVENT,,<auto>,1602254289131
+20001,"malignant lymph node, unspecified",1070,"malignant lymph node, unspecified",,-1,,0.6401098370552063,UNCHECKED,,0,4131931,EVENT,,<auto>,1602254290076
+20001,bladder cancer,1035,bladder cancer,,-1,,1.0,UNCHECKED,,0,197508,EVENT,,<auto>,1602254292102
+20001,metastatic cancer (unknown primary),1071,metastatic cancer (unknown primary),,-1,,0.6546187996864319,UNCHECKED,,0,4114221,EVENT,,<auto>,1602254298176
+20001,other cancer of urinary tract,1036,other cancer of urinary tract,,-1,,0.7061538696289062,UNCHECKED,,0,4171400,EVENT,,<auto>,1602254300421
+20001,female genital tract cancer,1037,female genital tract cancer,,-1,,0.7492953538894653,UNCHECKED,,0,4257683,EVENT,,<auto>,1602254308030

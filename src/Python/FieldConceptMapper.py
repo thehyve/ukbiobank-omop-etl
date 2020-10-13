@@ -18,7 +18,8 @@ from pathlib import Path
 from typing import Dict
 import logging
 
-from src.Python.model.usagi_object import UsagiObject, FieldMapping
+from src.Python.model.UsagiRow import UsagiRow
+from src.Python.model.FieldMapping import FieldMapping
 
 logger = logging.getLogger(__name__)
 
@@ -50,11 +51,11 @@ class Target:
 
 class FieldConceptMapper:
     def __init__(self, in_directory: Path, verbose: bool = False):
-        self.field_mappings: Dict[int, FieldMapping] = {}
+        self.field_mappings: Dict[str, FieldMapping] = {}
         self.verbose = verbose
         self.load(in_directory)
 
-    def __call__(self, field_id: int, value: str) -> Target:
+    def __call__(self, field_id: str, value: str) -> Target:
         return self.lookup(field_id, value)
 
     def load(self, directory: Path):
@@ -74,16 +75,17 @@ class FieldConceptMapper:
 
     def _load_usagi(self, file_path: Path):
         for row in self._load_map(file_path):
-            usagi_mapping = UsagiObject(row)
+            usagi_mapping = UsagiRow(row)
             field_id = usagi_mapping.field_id
-            # TODO: ignore status
-            codemapping = self.field_mappings.setdefault(field_id, FieldMapping(field_id))
-            codemapping.add(usagi_mapping)
 
-    def has_mapping_for_field(self, field_id: int):
+            # TODO: ignore status
+            code_mapping = self.field_mappings.setdefault(field_id, FieldMapping(field_id))
+            code_mapping.add(usagi_mapping)
+
+    def has_mapping_for_field(self, field_id: str):
         return field_id in self.field_mappings
 
-    def lookup(self, field_id: int, value: str) -> Target:
+    def lookup(self, field_id: str, value: str) -> Target:
         """
         For given variable/value pair, looks up the target concept_id, value_as_concept_id, value_as_number and unit_concept_id.
         The mapping can be one of three types:
@@ -98,31 +100,49 @@ class FieldConceptMapper:
         target.value_source_value = value
 
         if not self.has_mapping_for_field(field_id):
+            print(f'Field "{field_id}" is unknown')
             target.concept_id = 0
             target.source_value = field_id
             return target
 
-        # Get concept_id from from variable and value separately
         field_mapping = self.field_mappings[field_id]
-        target.concept_id = field_mapping.event_mapping.concept_id
-        target.source_value = field_id
 
         if field_mapping.has_unit():
+            target.concept_id = field_mapping.event_mapping.concept_id
             target.value_as_number = float(value)
             target.unit_concept_id = field_mapping.unit_mapping.concept_id
-        elif field_mapping.has_values():
-            value_mapping = field_mapping.values.get(value)
-            if value_mapping:
-                target.value_as_concept_id = value_mapping.concept_id
-            else:
-                print(f'Value "{value}" for field_id {field_id} is unknown')
+            target.source_value = field_id
+            target.value_source_value = value
+            return target
 
-        return target
+        if field_mapping.has_values():
+            value_mapping = field_mapping.values.get(value)
+            if not value_mapping:
+                print(f'Value "{value}" for field_id "{field_id}" is unknown')
+                target.concept_id = 0
+                target.source_value = field_id
+                return target
+
+            if not value_mapping.event_mapping:
+                target.concept_id = 0
+                print(f'Warning "{field_id}-{value}" does not have an event_concept_id associated')
+            else:
+                target.concept_id = value_mapping.event_mapping.concept_id
+
+            if value_mapping.value_mapping:
+                target.value_as_concept_id = value_mapping.value_mapping.concept_id
+            target.source_value = field_id + "|" + value
+            target.value_source_value = value
+            return target
+
+        raise Warning('This should not happen, mapping is either has unit or value mapping.')
 
 
 if __name__ == '__main__':
     mapper = FieldConceptMapper(Path('./resources/usagi_input'))
 
     # Some simple tests
-    print(mapper.lookup(41256, '0552'))
-    print(mapper.lookup(30785, '8'))
+    print(mapper.lookup('41256', '0552'))
+    print(mapper.lookup('30785', '8'))
+    print(mapper.lookup('2443', '0'))
+    print(mapper.lookup('2443', '1'))
