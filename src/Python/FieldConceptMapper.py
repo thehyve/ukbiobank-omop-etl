@@ -18,35 +18,11 @@ from pathlib import Path
 from typing import Dict
 import logging
 
+from src.Python.model.MappingTarget import MappingTarget
 from src.Python.model.UsagiRow import UsagiRow
 from src.Python.model.FieldMapping import FieldMapping
 
 logger = logging.getLogger(__name__)
-
-
-class Target:
-
-    def __init__(self):
-        self.concept_id = None
-        self.value_as_concept_id = None
-        self.value_as_number = None
-        self.unit_concept_id = None
-        self.source_value = None
-        self.value_source_value = None
-
-        self.variable_comment = None
-        self.value_comment = None
-
-    def __str__(self):
-        return f'{self.source_value}-{self.value_source_value} => ' \
-               f'concept_id: {self.concept_id}, ' \
-               f'value_as_concept_id: {self.value_as_concept_id}, ' \
-               f'value_as_number: {self.value_as_number}, ' \
-               f'unit_concept_id: {self.unit_concept_id}, ' \
-               f'source_value: {self.source_value}, ' \
-               f'value_source_value: {self.value_source_value}, ' \
-               f'variable_comment: {self.variable_comment}, ' \
-               f'value_comment: {self.value_comment}'
 
 
 class FieldConceptMapper:
@@ -55,7 +31,8 @@ class FieldConceptMapper:
         self.verbose = verbose
         self.load(in_directory)
 
-    def __call__(self, field_id: str, value: str) -> Target:
+    def __call__(self, field_id: str, value: str) -> MappingTarget:
+        # Convenience method
         return self.lookup(field_id, value)
 
     def load(self, directory: Path):
@@ -85,7 +62,12 @@ class FieldConceptMapper:
     def has_mapping_for_field(self, field_id: str):
         return field_id in self.field_mappings
 
-    def lookup(self, field_id: str, value: str) -> Target:
+    def get_mapping(self, field_id: str) -> FieldMapping:
+        if field_id in self.field_mappings:
+            return self.field_mappings[field_id]
+        return None
+
+    def lookup(self, field_id: str, value: str) -> MappingTarget:
         """
         For given variable/value pair, looks up the target concept_id, value_as_concept_id, value_as_number and unit_concept_id.
         The mapping can be one of three types:
@@ -94,9 +76,9 @@ class FieldConceptMapper:
         3. Numeric. If no mapping for value found, the value is assumed to be numeric. Variable maps to concept_id and unit_concept_id. Value is converted to float.
         :param field_id: integer
         :param value: string
-        :return: Target
+        :return: MappingTarget
         """
-        target = Target()
+        target = MappingTarget()
         target.value_source_value = value
 
         if not self.has_mapping_for_field(field_id):
@@ -105,12 +87,12 @@ class FieldConceptMapper:
             target.source_value = field_id
             return target
 
-        field_mapping = self.field_mappings[field_id]
+        field_mapping = self.get_mapping(field_id)
 
         if field_mapping.has_unit():
-            target.concept_id = field_mapping.event_mapping.concept_id
+            target.concept_id = field_mapping.event_target.concept_id
             target.value_as_number = float(value)
-            target.unit_concept_id = field_mapping.unit_mapping.concept_id
+            target.unit_concept_id = field_mapping.unit_target.concept_id
             target.source_value = field_id
             target.value_source_value = value
             return target
@@ -123,14 +105,14 @@ class FieldConceptMapper:
                 target.source_value = field_id
                 return target
 
-            if not value_mapping.event_mapping:
+            if not value_mapping.event_target:
                 target.concept_id = 0
                 print(f'Warning "{field_id}-{value}" does not have an event_concept_id associated')
             else:
-                target.concept_id = value_mapping.event_mapping.concept_id
+                target.concept_id = value_mapping.event_target.concept_id
 
-            if value_mapping.value_mapping:
-                target.value_as_concept_id = value_mapping.value_mapping.concept_id
+            if value_mapping.value_target:
+                target.value_as_concept_id = value_mapping.value_target.concept_id
             target.source_value = field_id + "|" + value
             target.value_source_value = value
             return target
@@ -146,3 +128,5 @@ if __name__ == '__main__':
     print(mapper.lookup('30785', '8'))
     print(mapper.lookup('2443', '0'))
     print(mapper.lookup('2443', '1'))
+
+    print(mapper.get_mapping('2335'))
